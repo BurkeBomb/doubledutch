@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Double Dutch Delight</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body class="light-mode">
+  <header>
+    <h1>Welkom / Welkom!</h1>
+    <button id="toggleMode">🌙 Toggle Mode</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Gamified Language Module</h2>
+      <p>Learn Dutch & Afrikaans with playful quests and poetic flair.</p>
+      <a href="#" class="btn primary">Start Quest</a>
+    </section>
+
+    <section class="card accent">
+      <h2>Rewards</h2>
+      <p>Earn badges and unlock new phrases.</p>
+      <a href="#" class="btn secondary">View Achievements</a>
+    </section>
+  </main>
+
+  <script>
+    const toggle = document.getElementById('toggleMode');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('light-mode');
+    });
+  </script>
+</body>
+</html>

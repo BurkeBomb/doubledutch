@@ -1,0 +1,82 @@
+:root {
+  --primary: #D62828;
+  --secondary: #F77F00;
+  --accent: #FCBF49;
+  --accent-cool: #3A86FF;
+  --neutral-light: #F8F9FA;
+  --neutral-dark: #212529;
+
+  --font-main: 'Inter', 'Montserrat', 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--neutral-light);
+  color: var(--neutral-dark);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background-color: var(--neutral-dark);
+  color: var(--neutral-light);
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--accent);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card.accent {
+  background-color: var(--accent);
+  color: var(--neutral-dark);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.btn.primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn.secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+a {
+  color: var(--accent-cool);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

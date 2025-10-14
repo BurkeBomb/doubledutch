@@ -1,0 +1,218 @@
+{
+  "courseData": [
+    {
+      "id": "level-1",
+      "title": "Module 1: Hallo, Wereld!",
+      "theme": "Greetings & Introductions (Adult Learner)",
+      "xpReward": 100,
+      "scoring": {
+        "totalXP": 100,
+        "quizPoints": 10,
+        "vocabBonus": 20,
+        "mascotXP": 30
+      },
+      "vocabulary": [
+        { "dutch": "Hallo", "afrikaans": "Hallo", "english": "Hello" },
+        { "dutch": "Goedemorgen", "afrikaans": "Goeiemôre", "english": "Good morning" },
+        { "dutch": "Goedenavond", "afrikaans": "Goeienaand", "english": "Good evening" },
+        { "dutch": "Hoe gaat het?", "afrikaans": "Hoe gaan dit?", "english": "How are you?" },
+        { "dutch": "Ik heet...", "afrikaans": "Ek heet...", "english": "My name is..." },
+        { "dutch": "Aangenaam", "afrikaans": "Aangenaam", "english": "Nice to meet you" },
+        { "dutch": "Tot ziens", "afrikaans": "Totsiens", "english": "Goodbye" },
+        { "dutch": "Ja / Nee", "afrikaans": "Ja / Nee", "english": "Yes / No" },
+        { "dutch": "Dank je", "afrikaans": "Dankie", "english": "Thank you (informal)" },
+        { "dutch": "Spreek je Engels?", "afrikaans": "Praat jy Engels?", "english": "Do you speak English?" }
+      ],
+      "mascot": {
+        "task": "🐻 Bear meets 🐑 Sheep at a café.",
+        "goal": "Help Bear say hello and introduce himself.",
+        "dialogue": [
+          { "speaker": "Bear", "line": "Hallo, ik heet Bear. Aangenaam." },
+          { "speaker": "Sheep", "line": "Aangenaam! Ik ben Sheep." },
+          { "speaker": "Bear", "line": "Hoe gaat het met jou?" },
+          { "speaker": "Sheep", "line": "Het gaat goed, dank je! En met jou?" }
+        ],
+        "reward": "🎉 Confetti + 'Bear Badge: First Hello!'"
+      },
+      "nugget": {
+        "title": "Cultural Nugget: Handshakes & Directness",
+        "fact": "In the Netherlands, greetings are direct and polite. A firm handshake is common, and saying your name clearly is appreciated. 'Aangenaam' is a slightly formal, but friendly, way to say 'Nice to meet you.'",
+        "icon": "🌷"
+      },
+      "poetry": [
+        {
+          "title": "Dikkertje Dap",
+          "author": "Annie M.G. Schmidt",
+          "type": "Beginner-friendly",
+          "activity": "Read aloud + match words to visuals (e.g. “trap”, “giraffe”, “dag”)."
+        },
+        {
+          "title": "Leef",
+          "author": "Freek de Jonge",
+          "type": "Emotional",
+          "activity": "Listen + reflect on 'Hallo' as a gateway to connection."
+        },
+        {
+          "title": "Mijn lief, mijn lief, mijn lief",
+          "author": "P.C. Hooft",
+          "type": "Cultural depth",
+          "activity": "Highlight repetition + poetic rhythm and try to translate one line."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What does 'Hoe gaat het?' mean?",
+          "options": ["What time is it?", "How are you?", "Where are you?" ],
+          "answer": "How are you?"
+        },
+        {
+          "question": "Which phrase means 'Nice to meet you'?",
+          "options": ["Tot ziens", "Aangenaam", "Goedemorgen" ],
+          "answer": "Aangenaam"
+        },
+        {
+          "question": "What’s the polite way to say goodbye in Dutch?",
+          "options": ["Hallo", "Tot ziens", "Dank je" ],
+          "answer": "Tot ziens"
+        },
+        {
+          "question": "How would you say 'I’m from South Africa' in Dutch?",
+          "options": ["Ik kom uit Zuid‑Afrika", "Ik ben Zuid‑Afrika", "Ik heet Zuid‑Afrika" ],
+          "answer": "Ik kom uit Zuid‑Afrika"
+        },
+        {
+          "question": "Which phrase would you use to ask if someone speaks English?",
+          "options": ["Spreek je Engels?", "Wil je Engels?", "Heb je Engels?" ],
+          "answer": "Spreek je Engels?"
+        },
+        {
+          "question": "What’s the correct greeting for evening in Dutch?",
+          "options": ["Goedemorgen", "Goedenavond", "Aangenaam" ],
+          "answer": "Goedenavond"
+        },
+        {
+          "question": "What does 'Ik heet…' mean?",
+          "options": ["I’m hungry", "My name is…", "I live in…" ],
+          "answer": "My name is…"
+        },
+        {
+          "question": "Which phrase would you use to say 'Yes / No'?",
+          "options": ["Ja / Nee", "Goed / Slecht", "Nu / Later" ],
+          "answer": "Ja / Nee"
+        },
+        {
+          "question": "What’s a common Dutch greeting used any time of day?",
+          "options": ["Hallo", "Tot ziens", "Dank u" ],
+          "answer": "Hallo"
+        },
+        {
+          "question": "Which phrase would you use to ask 'How are you?' in Afrikaans?",
+          "options": ["Hoe gaan dit?", "Waar is jy?", "Wat doen jy?" ],
+          "answer": "Hoe gaan dit?"
+        }
+      ]
+    },
+    {
+      "id": "level-2",
+      "title": "Module 2: Love & Small Talk",
+      "theme": "Romantic Phrases + Daily Conversation",
+      "xpReward": 200,
+      "scoring": {
+        "totalXP": 200,
+        "quizPoints": 10,
+        "vocabBonus": 25,
+        "mascotXP": 40
+      },
+      "vocabulary": [
+        { "dutch": "Ik hou van je", "afrikaans": "Ek is lief vir jou", "english": "I love you" },
+        { "dutch": "Je bent mooi", "afrikaans": "Jy is mooi", "english": "You are beautiful" },
+        { "dutch": "Mag ik je nummer?", "afrikaans": "Mag ek jou nommer hê?", "english": "Can I have your number?" },
+        { "dutch": "Ik voel mij goed", "afrikaans": "Ek voel goed", "english": "I feel good" },
+        { "dutch": "Wat is je naam?", "afrikaans": "Wat is jou naam?", "english": "What is your name?" },
+        { "dutch": "Ik hou van muziek", "afrikaans": "Ek hou van musiek", "english": "I love music" },
+        { "dutch": "Het is heerlijk", "afrikaans": "Dis heerlik", "english": "It is delicious" },
+        { "dutch": "Waar woon jij?", "afrikaans": "Waar bly jy?", "english": "Where do you live?" }
+      ],
+      "mascot": {
+        "task": "🐑 Sheep goes on a date with 🐻 Bear.",
+        "goal": "Help Sheep say something cute and order food.",
+        "dialogue": [
+          { "speaker": "Sheep", "line": "Je ziet er leuk uit vandaag!" },
+          { "speaker": "Bear", "line": "Dank je! Mag ik je nummer?" }
+        ],
+        "reward": "💘 Heart Badge + Romantic XP Boost"
+      },
+      "quiz": [
+        {
+          "question": "What does 'Ik hou van je' mean?",
+          "options": ["I like you", "I love you", "I’m proud of you" ],
+          "answer": "I love you"
+        },
+        {
+          "question": "Translate: 'You look nice'",
+          "options": ["Je ziet er leuk uit", "Je bent klaar", "Je voelt goed" ],
+          "answer": "Je ziet er leuk uit"
+        },
+        {
+          "question": "How to say 'Can I have your number?'",
+          "options": ["Mag ik je nummer?", "Waar is je nummer?", "Je hebt nummer?" ],
+          "answer": "Mag ik je nummer?"
+        }
+      ]
+    },
+    {
+      "id": "level-3",
+      "title": "Module 3: Express Yourself (Carefully)",
+      "theme": "Dutch NSFW Slang & Expressive Phrases",
+      "xpReward": 300,
+      "scoring": {
+        "totalXP": 300,
+        "quizPoints": 10,
+        "vocabBonus": 25,
+        "mascotXP": 50
+      },
+      "vocabulary": [
+        { "dutch": "Verdorie!", "afrikaans": "Verdorie!", "english": "Damn it!" },
+        { "dutch": "Kakweer!", "afrikaans": "Dis 'n gemors!", "english": "Shitty weather" },
+        { "dutch": "Godverdomme!", "afrikaans": "Jirre!", "english": "Goddamnit" },
+        { "dutch": "Ik ben het spuugzat!", "afrikaans": "Ek is gatvol!", "english": "I'm totally fed up!" },
+        { "dutch": "Hou je bek!", "afrikaans": "Hou jou bek!", "english": "Shut the f*** up!" },
+        { "dutch": "Wat een onzin!", "afrikaans": "Wat ‘n onsin!", "english": "What nonsense!" },
+        { "dutch": "Daar heb je ‘m weer!", "afrikaans": "Daar's hy alweer!", "english": "There you go again!" },
+        { "dutch": "Je maakt me gek!", "afrikaans": "Jy maak my mal!", "english": "You're driving me crazy!" }
+      ],
+      "mascot": {
+        "task": "🐻 Bear is stuck in traffic and totally fed up.",
+        "goal": "Vent your frustration — in Dutch!",
+        "dialogue": [
+          { "speaker": "Bear", "line": "Wat een kutweer vandaag!" },
+          { "speaker": "Bear", "line": "Ik ben het spuugzat!" }
+        ],
+        "reward": "🔥 'Bear Blows Up' Badge + 300XP"
+      },
+      "quiz": [
+        {
+          "question": "What does 'Ik ben het spuugzat!' express?",
+          "options": ["Excitement", "Fed up", "Tired" ],
+          "answer": "Fed up"
+        },
+        {
+          "question": "Which phrase means 'Shut the f*** up'?",
+          "options": ["Tot ziens", "Hou je bek!", "Ik hou van je" ],
+          "answer": "Hou je bek!"
+        },
+        {
+          "question": "How to say 'You're driving me crazy'?",
+          "options": ["Ik ben mal", "Je maakt me gek!", "Wat leuk!" ],
+          "answer": "Je maakt me gek!"
+        }
+      ]
+    }
+  ],
+  "avatars": {
+    "bear": "🐻",
+    "sheep": "🐑",
+    "windmill": "🌾",
+    "tulip": "🌷"
+  }
+}
