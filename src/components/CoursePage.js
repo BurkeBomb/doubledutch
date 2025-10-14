@@ -2,7 +2,8 @@ import React from 'react';
 import Button from './Button';
 
 const CoursePage = ({ COURSE_DATA, setView, setSelectedLevel, userData }) => {
-  const hasLevels = COURSE_DATA && COURSE_DATA.length > 0;
+  const hasLevels = Array.isArray(COURSE_DATA) && COURSE_DATA.length > 0;
+  const levelProgress = userData?.levelProgress ?? {};
   if (!hasLevels) {
     return (
       <div className="p-8 space-y-6 flex-grow overflow-y-auto pb-20 text-center">
@@ -17,10 +18,10 @@ const CoursePage = ({ COURSE_DATA, setView, setSelectedLevel, userData }) => {
   }
 
   // Check if level‑1 is done to unlock others
-  const isLevel1Completed = userData.levelProgress['level-1']?.completed;
+  const isLevel1Completed = Boolean(levelProgress['level-1']?.completed);
 
   const renderLevelCard = (level) => {
-    const isCompleted = userData.levelProgress[level.id]?.completed;
+    const isCompleted = Boolean(levelProgress[level.id]?.completed);
     const isLocked = level.id !== 'level-1' && !isLevel1Completed;
     const buttonText = isCompleted ? 'Review Lesson' : 'Start Lesson';
 
