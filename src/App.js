@@ -34,15 +34,18 @@ function App() {
   const [showReminder, setShowReminder] = useState(false);
 
   useEffect(() => {
-    if (isAuthReady && userData.xp !== undefined) {
-      const today = new Date().toISOString().split('T')[0];
-      if (userData.lastReminderDate !== today) {
-        setShowReminder(true);
-      } else {
-        setShowReminder(false);
-      }
+    if (!isAuthReady) {
+      return;
     }
-  }, [isAuthReady, userData.lastReminderDate, userData.xp]);
+
+    const hasUserData = typeof userData?.xp !== 'undefined';
+    if (!hasUserData) {
+      return;
+    }
+
+    const today = new Date().toISOString().split('T')[0];
+    setShowReminder(userData?.lastReminderDate !== today);
+  }, [isAuthReady, userData]);
 
   const renderContent = useMemo(() => {
     if (!isAuthReady || isLoading) {

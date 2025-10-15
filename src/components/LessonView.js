@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
-
-// speakDutch function (Text-to-Speech)
-const speakDutch = (text) => {
-  if (!window.speechSynthesis) return;
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'nl-NL';
-  window.speechSynthesis.speak(utterance);
-};
+import Button from './Button';
+import { speakDutch } from '../data/utils/tts';
 
 // Flashcard component
 const Flashcard = ({ front, back }) => {
@@ -166,15 +160,16 @@ const LessonView = ({ level, setQuizState, setView }) => {
       )}
 
       <div className="text-center py-4 sticky bottom-0 bg-gray-50 md:bg-transparent">
-        <button
-          className="px-6 py-3 font-bold text-lg rounded-xl bg-red-600 hover:bg-red-700 text-white border-b-4 border-red-800 shadow-lg transform active:scale-95 w-full max-w-sm"
-          onClick={() => {
-            setQuizState({ active: true, level: level, currentQuestionIndex: 0, score: 0, showResult: false });
-            setView('quiz');
-          }}
-        >
-          Test Your Knowledge (Quiz)
-        </button>
+          <Button
+            primary
+            className="w-full max-w-sm"
+            onClick={() => {
+              setQuizState({ active: true, level: level, currentQuestionIndex: 0, score: 0, showResult: false });
+              setView('quiz');
+            }}
+          >
+            Test Your Knowledge (Quiz)
+          </Button>
       </div>
     </div>
   );
